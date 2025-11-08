@@ -1,0 +1,23 @@
+@import "./fonts";
+@import "./reset";
+@import "./about";
+@import "./producte";
+@import "./contact";
+
+// Разделить scss на файлы(секции)
+// Сделать вложеность в scss
+// Подключение шрифтов(скачать шрифты)
+// Правильно сделать размеры 
+
+
+body {
+  font-family: "Roboto";
+}
+
+title {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+}

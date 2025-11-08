@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.eot");
+  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main .about {
+  max-width: 600px;
+  margin-bottom: 80px;
+  display: flex;
+  margin-left: 200px;
+}
+.main .about_container-left-img {
+  height: 121px;
+  width: 1090px;
+  margin-bottom: 30px;
+}
+.main .about_title {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 20%;
+}
+.main .about_text {
+  color: white;
+  line-height: 1.4;
+  letter-spacing: 20%;
+}
+.main .about_text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.producte {
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
+.producte_title {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 20%;
+}
+.producte_list {
+  display: flex;
+}
+.producte_text-tab, .producte_text-ch, .producte_text-beds, .producte_text-wardr, .producte_text-panel, .producte_text-live {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 10%;
+}
+.producte_text-tab:hover, .producte_text-ch:hover, .producte_text-beds:hover, .producte_text-wardr:hover, .producte_text-panel:hover, .producte_text-live:hover {
+  background-color: #09e5da;
+}
+
+.contact {
+  max-width: 600px;
+  margin-left: 200px;
+}
+.contact_title {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 10%;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact_row {
+  display: flex;
+  gap: 20px;
+}
+.contact_input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+}
+.contact_input::-moz-placeholder {
+  color: rgb(9, 9, 9);
+}
+.contact_input::placeholder {
+  color: rgb(9, 9, 9);
+}
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #050505;
+}
+.contact_textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: transparent;
+  resize: vertical;
+  font-size: 18px;
+  font-family: inherit;
+  letter-spacing: 20%;
+}
+.contact_subtext {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid #fefafa;
+  cursor: pointer;
+  height: 48px;
+  width: 200px;
+  background: transparent;
+}
+.contact_rihgt-img {
+  height: 905px;
+  width: 532px;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+title {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */

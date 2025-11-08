@@ -1,0 +1,43 @@
+.main {
+  background-image: url('../img/Rectangle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .about {
+    max-width: 600px;
+    margin-bottom: 80px;
+    display: flex;
+    margin-left: 200px;
+
+    &_container-left-img {
+      height: 121px;
+      width: 1090px;
+      margin-bottom: 30px;
+    }
+
+    &_title {
+      font-size: 40px;
+      color: white;
+      margin-bottom: 20px;
+      font-weight: bold;
+      letter-spacing: 20%;
+    }
+
+    &_text {
+      color: white;
+      line-height: 1.4;
+      letter-spacing: 20%;
+    }
+
+    &_text p {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  }
+}

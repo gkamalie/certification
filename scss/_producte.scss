@@ -1,0 +1,36 @@
+.producte {
+  margin-bottom: 50px;
+  margin-left: 200px;
+
+  &_title {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 20%;
+  }
+
+  &_list {
+    display: flex;
+  }
+
+  &_text-tab,
+  &_text-ch,
+  &_text-beds,
+  &_text-wardr,
+  &_text-panel,
+  &_text-live {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 10%;
+
+    &:hover {
+      background-color: #09e5da;
+    }
+  }
+}
