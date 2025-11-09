@@ -1,17 +1,17 @@
 .producte {
-  margin-bottom: 50px;
-  margin-left: 200px;
+  margin-bottom: 40px;
+  margin-left: 10px;
 
   &_title {
-    font-size: 40px;
+    font-size: 32px;
     color: white;
-    margin-bottom: 20px;
-    font-weight: bold;
-    letter-spacing: 20%;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
   }
 
   &_list {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &_text-tab,
@@ -21,16 +21,69 @@
   &_text-panel,
   &_text-live {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: 1px solid #ccc;
     color: white;
-    font-size: 18px;
-    letter-spacing: 10%;
+    font-size: 16px;
+    letter-spacing: 2px;
 
     &:hover {
       background-color: #09e5da;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .producte {
+    margin-left: 0;
+    margin-bottom: 30px;
+
+    &_title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    &_list {
+      display: grid;
+      grid-template-columns: 150px 150px 150px;
+      gap: 5px;
+      justify-content: center;
+      grid-template-rows: auto auto;
+      text-align: center;
+
+
+      &_text-tab {
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      &_text-ch {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      &_text-beds {
+        grid-column: 3;
+        grid-row: 1;
+      }
+
+      &_text-panel {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      &_text-live {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      &_text-wardr {
+        grid-column: 3;
+        grid-row: 2;
+      }
     }
   }
 }
