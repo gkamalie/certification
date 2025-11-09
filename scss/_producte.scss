@@ -12,6 +12,7 @@
   &_list {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
   }
 
   &_text-tab,
@@ -28,6 +29,10 @@
     color: white;
     font-size: 16px;
     letter-spacing: 2px;
+    cursor: pointer;
+    background: transparent;
+    font-family: inherit;
+    outline: none;
 
     &:hover {
       background-color: #09e5da;
@@ -53,36 +58,46 @@
       justify-content: center;
       grid-template-rows: auto auto;
       text-align: center;
+      background: transparent;
+      font-family: inherit;
+      outline: none;
+      list-style: none;
 
 
       &_text-tab {
         grid-column: 1;
         grid-row: 1;
+        cursor: pointer;
       }
 
       &_text-ch {
         grid-column: 2;
         grid-row: 1;
+        cursor: pointer;
       }
 
       &_text-beds {
         grid-column: 3;
         grid-row: 1;
+        cursor: pointer;
       }
 
       &_text-panel {
         grid-column: 1;
         grid-row: 2;
+        cursor: pointer;
       }
 
       &_text-live {
         grid-column: 2;
         grid-row: 2;
+        cursor: pointer;
       }
 
       &_text-wardr {
         grid-column: 3;
         grid-row: 2;
+        cursor: pointer;
       }
     }
   }

@@ -115,6 +115,7 @@
 .producte_list {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 .producte_text-tab, .producte_text-ch, .producte_text-beds, .producte_text-wardr, .producte_text-panel, .producte_text-live {
   display: inline-block;
@@ -125,6 +126,10 @@
   color: white;
   font-size: 16px;
   letter-spacing: 2px;
+  cursor: pointer;
+  background: transparent;
+  font-family: inherit;
+  outline: none;
 }
 .producte_text-tab:hover, .producte_text-ch:hover, .producte_text-beds:hover, .producte_text-wardr:hover, .producte_text-panel:hover, .producte_text-live:hover {
   background-color: #09e5da;
@@ -147,30 +152,40 @@
     justify-content: center;
     grid-template-rows: auto auto;
     text-align: center;
+    background: transparent;
+    font-family: inherit;
+    outline: none;
+    list-style: none;
   }
   .producte_list_text-tab {
     grid-column: 1;
     grid-row: 1;
+    cursor: pointer;
   }
   .producte_list_text-ch {
     grid-column: 2;
     grid-row: 1;
+    cursor: pointer;
   }
   .producte_list_text-beds {
     grid-column: 3;
     grid-row: 1;
+    cursor: pointer;
   }
   .producte_list_text-panel {
     grid-column: 1;
     grid-row: 2;
+    cursor: pointer;
   }
   .producte_list_text-live {
     grid-column: 2;
     grid-row: 2;
+    cursor: pointer;
   }
   .producte_list_text-wardr {
     grid-column: 3;
     grid-row: 2;
+    cursor: pointer;
   }
 }
 .contact {
